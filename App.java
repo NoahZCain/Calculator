@@ -18,12 +18,14 @@ private static double getDouble(String prompt)
     Double userNum = inputScanner.nextDouble();
     return userNum;
     
+    
 }
 public static void main(String[] args) {
    Calculator calc = new Calculator();
     
     double num1 = getDouble("Num 1");
     double num2 = getDouble("Num 2");
+    int check = 12;
     
     System.out.println("the sum is: " +calc.add(num1,num2));
     System.out.println("the difference is: " + calc.subtract(num1, num2));
